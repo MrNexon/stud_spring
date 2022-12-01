@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Druk Wide Cyr";
+  src: url("./fonts/Druk Wide Cyr Medium.otf") format("truetype");
+  font-weight: 600;
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+:root {
+  --backgroundColor: #141414;
+  --foregroundColor: #FFF;
+}
+
+body {
+  padding: 0;
+  margin: 0 30px;
+  background-color: var(--backgroundColor);
+  color: var(--foregroundColor);
+
+  font-family: "Druk Wide Cyr", serif;
+  line-height: 1;
+
+}
+
+.Header {
+  opacity: .4;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  max-width: 250px;
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+.Content {
+  &-Main {
+    h3 {
+      font-size: 20px;
+      margin: 0 0 26px;
+    }
+    h1 {
+      font-size: 52px;
+      margin: 0;
+      line-height: 120%;
+    }
+
+    margin-bottom: 52px;
+  }
+  &-Animation {
+    height: 120px;
+    h2 {
+      font-size: 26px;
+      display: inline;
+    }
+  }
+  .blinking-cursor {
+    animation: 1s blink step-end infinite;
+    width: 13px;
+    height: 26px;
+    background-color: var(--foregroundColor);
+    display: inline-block;
+    margin-left: 6px;
+  }
+}

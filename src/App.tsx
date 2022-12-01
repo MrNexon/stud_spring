@@ -11,8 +11,10 @@ interface IState {
 
 const TIMER_TO = moment('2023-03-24').hours(0).minutes(0).seconds(0);
 const PHRASES = [
-  'Мы будем жарить',
-  'Игра началась...'
+  'Смотрим под другим углом',
+  'Они были синими',
+  'Больше, чем просто сцена',
+  'Game On',
 ]
 
 const delay = async (duration: number) => {

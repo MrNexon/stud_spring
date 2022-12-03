@@ -103,8 +103,8 @@ class App extends Component<any, IState> {
                 <div className="Content-Main">
                     <h3>Сборная факультетов</h3>
                     <h1>ИиВТ</h1>
-                    <h1>ИОТ</h1>
-                    <h1>СГ</h1>
+                    <h1>Т-унив.</h1>
+                    <h1 className="Text-muted">кто следующий?</h1>
                 </div>
                 <div className="Content-Animation">
                     <h2>{this.state.phrase}</h2>

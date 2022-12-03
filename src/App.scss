@@ -88,10 +88,16 @@ body {
       line-height: 120%;
     }
 
+    .Text-muted {
+      font-size: 32px;
+      margin-top: 6px;
+      opacity: .5;
+    }
+
     margin-bottom: 52px;
   }
   &-Animation {
-    height: 120px;
+    height: 100px;
     h2 {
       font-size: 26px;
       display: inline;

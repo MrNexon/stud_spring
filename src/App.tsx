@@ -104,7 +104,7 @@ class App extends Component<any, IState> {
                     <h3>Сборная факультетов</h3>
                     <h1>ИиВТ</h1>
                     <h1>Т-унив.</h1>
-                    <h1 className="Text-muted">кто следующий?</h1>
+                    <h1>АМиУ</h1>
                 </div>
                 <div className="Content-Animation">
                     <h2>{this.state.phrase}</h2>

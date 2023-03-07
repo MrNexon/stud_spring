@@ -9,7 +9,7 @@ interface IState {
   phraseIndex: number;
 }
 
-const TIMER_TO = moment('2023-03-24').hours(0).minutes(0).seconds(0);
+const TIMER_TO = moment('2023-03-23').hours(17).minutes(0).seconds(0);
 const PHRASES = [
   'Смотрим под другим углом',
   'Они были синими',
